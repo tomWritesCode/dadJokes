@@ -1,3 +1,5 @@
+// The literal peak of humor. Right here.
+
 const JokeList = [
   {
     joke: `Did you hear about the restaurant on the moon?`,
@@ -86,6 +88,10 @@ const JokeList = [
   {
     joke: `I don't play soccer because I enjoy the sport.`,
     punchLine: `I'm doing it for the kicks.`,
+  },
+  {
+    joke: `What did the ocean say to the shore?`,
+    punchLine: `Nothing, it just waved.`,
   },
   // {
   //   joke: ``,
