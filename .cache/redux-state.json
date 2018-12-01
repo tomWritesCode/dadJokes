@@ -697,6 +697,90 @@
         "owner": "internal-data-bridge"
       }
     },
+    "cb6cf1dc-9bdb-534a-951b-8884b5fa411a": {
+      "resolve": "/Users/thomaswhitaker/Desktop/dadJokes/node_modules/gatsby-plugin-google-analytics",
+      "id": "cb6cf1dc-9bdb-534a-951b-8884b5fa411a",
+      "name": "gatsby-plugin-google-analytics",
+      "version": "2.0.8",
+      "pluginOptions": {
+        "plugins": [],
+        "trackingId": "UA-130195764-1",
+        "head": false,
+        "anonymize": true,
+        "respectDNT": true,
+        "exclude": [
+          "/preview/**",
+          "/do-not-track/me/too/"
+        ],
+        "optimizeId": "YOUR_GOOGLE_OPTIMIZE_TRACKING_ID",
+        "sampleRate": 5,
+        "siteSpeedSampleRate": 10,
+        "cookieDomain": "example.com"
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [
+        "onRouteUpdate"
+      ],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/thomaswhitaker/Desktop/dadJokes/node_modules/gatsby-plugin-google-analytics",
+      "packageJson": {
+        "name": "gatsby-plugin-google-analytics",
+        "description": "Gatsby plugin to add google analytics onto a site",
+        "version": "2.0.8",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "google analytics"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": ">2.0.0-alpha"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "89a2ea8b7d1ec79fb15ec675086190c5",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
     "b6971a8f-9078-5fc9-9b1f-2ec0539b1be9": {
       "resolve": "/Users/thomaswhitaker/Desktop/dadJokes/node_modules/gatsby-plugin-manifest",
       "id": "b6971a8f-9078-5fc9-9b1f-2ec0539b1be9",
@@ -792,7 +876,7 @@
       "resolve": "/Users/thomaswhitaker/Desktop/dadJokes",
       "id": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "name": "default-site-plugin",
-      "version": "2b70017a0ad95be0e7e983592d637dd1",
+      "version": "03f06ff309b1643f85b754f7baf3bb49",
       "pluginOptions": {
         "plugins": []
       },
@@ -821,6 +905,10 @@
           {
             "name": "gatsby-image",
             "version": "^2.0.20"
+          },
+          {
+            "name": "gatsby-plugin-google-analytics",
+            "version": "^2.0.8"
           },
           {
             "name": "gatsby-plugin-manifest",
@@ -880,7 +968,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "f787d0260df20d6951bb9ef5450a0851",
+        "contentDigest": "344a73250586fea9078bf64c69ebf4f0",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -994,12 +1082,12 @@
       },
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-12-01T10:18:45.688Z",
+      "buildTime": "2018-12-01T10:57:47.930Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "630c5caadcbff928601527d3f33549ea",
+        "contentDigest": "8eddcf813702611e57e4ff7aa3710bd7",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -1009,7 +1097,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "8f8d05d356aa1875d4638d594e8eb98b",
+        "contentDigest": "15441dbffc05e821ae922e6e14bdacc8",
         "type": "Directory",
         "description": "Directory \"src/images\"",
         "owner": "gatsby-source-filesystem"
@@ -1021,7 +1109,7 @@
       "size": 128,
       "prettySize": "128 B",
       "modifiedTime": "2018-12-01T05:10:28.104Z",
-      "accessTime": "2018-12-01T10:18:51.524Z",
+      "accessTime": "2018-12-01T10:57:52.482Z",
       "changeTime": "2018-12-01T10:16:19.326Z",
       "birthTime": "2018-12-01T05:10:28.103Z",
       "root": "/",
@@ -1039,11 +1127,11 @@
       "blksize": 4096,
       "ino": 8616057276,
       "blocks": 0,
-      "atimeMs": 1543659531523.9055,
+      "atimeMs": 1543661872482.21,
       "mtimeMs": 1543641028103.9695,
       "ctimeMs": 1543659379325.607,
       "birthtimeMs": 1543641028102.8523,
-      "atime": "2018-12-01T10:18:51.524Z",
+      "atime": "2018-12-01T10:57:52.482Z",
       "mtime": "2018-12-01T05:10:28.104Z",
       "ctime": "2018-12-01T10:16:19.326Z",
       "birthtime": "2018-12-01T05:10:28.103Z"
@@ -1068,7 +1156,7 @@
       "size": 21212,
       "prettySize": "21.2 kB",
       "modifiedTime": "2018-12-01T05:10:28.104Z",
-      "accessTime": "2018-12-01T05:10:29.279Z",
+      "accessTime": "2018-12-01T10:43:49.307Z",
       "changeTime": "2018-12-01T10:16:19.326Z",
       "birthTime": "2018-12-01T05:10:28.104Z",
       "root": "/",
@@ -1086,11 +1174,11 @@
       "blksize": 4096,
       "ino": 8616057278,
       "blocks": 48,
-      "atimeMs": 1543641029279.08,
+      "atimeMs": 1543661029306.6072,
       "mtimeMs": 1543641028104.166,
       "ctimeMs": 1543659379325.526,
       "birthtimeMs": 1543641028103.963,
-      "atime": "2018-12-01T05:10:29.279Z",
+      "atime": "2018-12-01T10:43:49.307Z",
       "mtime": "2018-12-01T05:10:28.104Z",
       "ctime": "2018-12-01T10:16:19.326Z",
       "birthtime": "2018-12-01T05:10:28.104Z"
@@ -1125,7 +1213,7 @@
       "size": 167273,
       "prettySize": "167 kB",
       "modifiedTime": "2018-12-01T05:10:28.104Z",
-      "accessTime": "2018-12-01T10:15:41.039Z",
+      "accessTime": "2018-12-01T10:53:00.695Z",
       "changeTime": "2018-12-01T10:16:19.325Z",
       "birthTime": "2018-12-01T05:10:28.103Z",
       "root": "/",
@@ -1143,11 +1231,11 @@
       "blksize": 4096,
       "ino": 8616057277,
       "blocks": 328,
-      "atimeMs": 1543659341039.0352,
+      "atimeMs": 1543661580694.9531,
       "mtimeMs": 1543641028103.8262,
       "ctimeMs": 1543659379324.737,
       "birthtimeMs": 1543641028102.9216,
-      "atime": "2018-12-01T10:15:41.039Z",
+      "atime": "2018-12-01T10:53:00.695Z",
       "mtime": "2018-12-01T05:10:28.104Z",
       "ctime": "2018-12-01T10:16:19.325Z",
       "birthtime": "2018-12-01T05:10:28.103Z"
@@ -1225,7 +1313,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "b74ff4e14bd7660c118422954bcba143"
+    "PLUGINS_HASH": "72e1ad35c901e04155d58ff2a79c407a"
   },
   "componentDataDependencies": {
     "nodes": {
@@ -1246,7 +1334,8 @@
     "404-22d": "44/path---404-22-d-bce-NZuapzHg3X9TaN1iIixfv1W23E",
     "sq--src-components-layout-js": 755544856,
     "404-html-516": "164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E",
-    "sq--src-components-image-js": 2011440971
+    "sq--src-components-image-js": 2011440971,
+    "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E"
   },
   "components": {
     "/Users/thomaswhitaker/Desktop/dadJokes/src/pages/404.js": {

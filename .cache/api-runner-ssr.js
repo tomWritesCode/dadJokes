@@ -5,6 +5,9 @@ var plugins = [{
       plugin: require('/Users/thomaswhitaker/Desktop/dadJokes/node_modules/gatsby-plugin-styled-components/gatsby-ssr'),
       options: {"plugins":[]},
     },{
+      plugin: require('/Users/thomaswhitaker/Desktop/dadJokes/node_modules/gatsby-plugin-google-analytics/gatsby-ssr'),
+      options: {"plugins":[],"trackingId":"UA-130195764-1","head":false,"anonymize":true,"respectDNT":true,"exclude":["/preview/**","/do-not-track/me/too/"],"optimizeId":"YOUR_GOOGLE_OPTIMIZE_TRACKING_ID","sampleRate":5,"siteSpeedSampleRate":10,"cookieDomain":"example.com"},
+    },{
       plugin: require('/Users/thomaswhitaker/Desktop/dadJokes/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
       options: {"plugins":[],"name":"gatsby-starter-default","short_name":"starter","start_url":"/","background_color":"#44e3dc","theme_color":"#44e3dc","display":"minimal-ui","icon":"./public/icons/favicon-256.png"},
     }]
