@@ -1,8 +1,9 @@
 import React from 'react';
-import JokeGenerator from '../components/JokeGenerator';
 import styled from 'styled-components';
 
 import Layout from '../components/layout';
+import JokeGenerator from '../components/JokeGenerator';
+import Footer from '../components/Footer';
 
 const Intro = styled.h2`
   margin: 10px 0;
@@ -14,8 +15,8 @@ const IndexPage = () => (
     <Intro>
       Did anyone really ask for this?
     </Intro>
-
     <JokeGenerator />
+    <Footer />
   </Layout>
 )
 
